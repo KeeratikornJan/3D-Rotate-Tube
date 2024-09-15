@@ -57,20 +57,24 @@ body {
 }
 
 .container .box span i:nth-child(1) {
-  color: #5c5fc4;
+  color: #83705a;
 }
 
 .container .box span i:nth-child(2) {
-  color: #c4c15c;
+  color: #c20c0c;
+}
+
+.container .box span i:nth-child(2):hover {
+  color: aqua;
 }
 
 @keyframes animate {
   0% {
-    transform: perspective(500px) rotateX(0deg) rotate(5deg);
+    transform: perspective(5000px) rotateX(0deg) rotate(5deg);
   }
 
   100% {
-    transform: perspective(50px) rotateX(360deg) rotate(5deg);
+    transform: perspective(50px) rotateX(360deg) rotate(900deg);
   }
 }
 
